@@ -1,0 +1,42 @@
+.shared-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-width: 0px 0px 3px 0px;
+  background-color: #dde5f4;
+  border-bottom-color: var(--secondary-color);
+  border-bottom-style: solid;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  height: auto;
+}
+
+.shared-item:hover {
+  font-weight: bold;
+  font-size:1.2rem;
+}
+
+.shared-item-title {
+  width: 21%;
+  height: 100%;
+}
+
+.shared-users {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 20%;
+}
+
+.shared-operations {
+  height: 100%;
+  width: 12%;
+  justify-content: center;
+}
+
+.ic {
+  margin: 0 5px;
+}

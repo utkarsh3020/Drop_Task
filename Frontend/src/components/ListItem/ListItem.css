@@ -1,0 +1,48 @@
+#main-container {
+  width: 75%;
+  height: 800px;
+  position: relative;
+  top: 60px;
+  float: right;
+  margin-left: 25%;
+  height: auto;
+}
+#list {
+  width: auto;
+  text-align: center;
+  padding: 0.9rem;
+  font-size: 3rem;
+  color: #111;
+  background-color: #6782B4;
+}
+
+#list h1{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#title {
+  text-decoration: none;
+  color: black;
+}
+
+.createBtn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  font-size: 5rem;
+  background: none;
+}
+.createBtn:hover {
+  color: hsl(233deg 36% 38%);
+  transition: all ease-in-out .3s;
+}
+
+.fa-circle-plus{
+}
+
+@media(max-width: 550px){
+  #list{
+    padding: 1rem;
+  }
+}

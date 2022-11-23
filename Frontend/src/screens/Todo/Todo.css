@@ -1,0 +1,14 @@
+#home {
+  display: flex;
+  height: 60vh;
+}
+
+.container {
+  height: 100%;
+}
+
+.select {
+  width: 50%;
+  color: black;
+  height: 100px;
+}

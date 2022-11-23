@@ -1,0 +1,67 @@
+#SharedDiv {
+  width: 75%;
+  position: relative;
+  top: 60px;
+  float: right;
+  margin-left: 25%;
+}
+
+.display-container {
+  height: 75vh;
+  width: 100%;
+}
+
+#list h1{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.close-mark {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  margin-top: 50px;
+  background: transparent;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.view-container {
+  height: calc(100vh - 220px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dde5f4;
+  justify-content: center;
+}
+
+.display-labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom-width: 3px;
+  border-bottom-color: var(--secondary-color);
+  border-bottom-style: solid;
+  color: white;
+  font-weight: 700;
+}
+
+.label-text {
+  float: right;
+  color: rgb(121, 131, 223);
+  font-size:1.42rem;
+}
+
+.fa-xmark{
+  position: absolute;
+  top:15%;
+}
+
+@media(max-width: 650px){
+  #list h1{
+    font-size: 1.5rem;
+  }
+}

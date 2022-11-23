@@ -1,0 +1,74 @@
+#listss{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size:1.2rem;
+}
+
+.fa-solid{
+  padding: 0 0.5rem;
+}
+
+
+.ic{
+    margin-left: 20px;
+}
+
+.function1:hover {
+    background-color: rgb(236, 231, 193);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+  }
+ 
+.link-list{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+.link1{
+    text-decoration: none;
+    color: black;
+  }
+  .link1:hover {
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+  }
+
+#icons{
+    display: flex;
+}
+
+.fa-user-group{
+  color: #111;
+}
+
+.fa-user-group:hover{
+  color:rgb(12, 141, 216);
+}
+.fa-trash-can:hover{
+  color:rgb(252, 70, 70);
+}
+.fa-pen-to-square:hover{
+  color:green;
+}
+
+
+@media only screen and (max-width: 410px) {
+  #listss{
+    font-size: 1rem;
+  }
+ }
+@media only screen and (max-width: 355px) {
+  #listss{
+    font-size: 0.7rem;
+  }
+ }
+@media only screen and (max-width: 290px) {
+  #listss{
+    font-size: 0.5rem;
+  }
+ }

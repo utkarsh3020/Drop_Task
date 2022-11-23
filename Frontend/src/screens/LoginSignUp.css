@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+:root{
+  --primary-color: hsl(213deg 85% 97%);
+  --secondary-color: hsl(233deg 36% 38%);
+}
+
+body{
+  background: hsl(218deg 50% 91%);
+  
+}
+
+.log-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.log-main-container{
+  background: var(--primary-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 2em hsl(231deg 62% 94%)
+}
+
+.Welcome{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.text-danger, .errorMsg{
+  color: red;
+}
+
+.input-box {
+  width: 100%;
+  background: hsl(0deg 0% 100%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  padding: 1em;
+  border-radius: 20px;
+  color: hsl(0deg 0% 30%);
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+.input-box::placeholder {
+  color: #000;
+  font-size: 0.9em;
+}
+
+.btn-submit{
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 1em;
+  background: hsl(233deg 36% 38%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.link{
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover{
+  border-bottom: 3px solid;
+  color: var(--secondary-color);
+  transition: ease-in-out;
+}
+

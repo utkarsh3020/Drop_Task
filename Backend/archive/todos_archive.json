@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "fname": "sudhir",
+        "lname": "tiwari",
+        "username": "sudhirtiwari103",
+        "email": "sudhir@gmail.com",
+        "password": "******",
+        "todos": [
+            {
+                "todoId": 1,
+                "title": "Assignment",
+                "description": "Physics Assignment"
+            },
+            {
+                "todoId": 2,
+                "title": "PTM",
+                "description": "At 9'o clock"
+            },
+            {
+                "todoId": 3,
+                "title": "Sudhir",
+                "description": "At 9'o clock"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "fname": "ayush",
+        "lname": "gaur",
+        "username": "ayushgaur",
+        "email": "ayush@gmail.com",
+        "password": "******",
+        "todos": [
+            {
+                "todoId": 1,
+                "title": "Meeting",
+                "description": "On Yoga Day"
+            },
+            {
+                "todoId": 2,
+                "title": "PTM",
+                "description": "Cancelled"
+            },
+            {
+                "todoId": 3,
+                "title": "Dummy Record",
+                "description": "Dummy Description working well"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "fname": "himanshu",
+        "lname": "patni",
+        "username": "himanshuPatni",
+        "email": "himanshu@gmail.com",
+        "password": "******",
+        "todos": [
+            {
+                "todoId": 1,
+                "title": "Presentation TIme",
+                "description": "Wisflux project presentation time today."
+            },
+            {
+                "todoId": 2,
+                "title": "Cllg Sem ",
+                "description": "Cllg sem will start in August"
+            },
+            {
+                "todoId": 3,
+                "title": "Call",
+                "description": "Call with the project team"
+            }
+        ]
+    }
+]

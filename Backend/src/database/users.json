@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1659201201537,
+        "fname": "Utkarsh",
+        "lname": "Gupta",
+        "username": "uttu",
+        "email": "u@gmai.com",
+        "password": "MTIzNDU2Nzg="
+    },
+    {
+        "fname": "Ayush",
+        "lname": "Gaur",
+        "username": "ayushgaur",
+        "email": "ayushgaur02@gmail.com",
+        "password": "QXl1c2gwMzc=",
+        "isUserLoggedIn": true,
+        "id": 1659208049353
+    },
+    {
+        "id": 1659208500102,
+        "title": "Dummyncdvnn",
+        "description": "ejljbnierv ekdj",
+        "fname": "Ayush1",
+        "lname": "Gaur",
+        "email": "ayushgaur02@gmail.com",
+        "username": "ayushgaur02",
+        "password": "Ayush037"
+    },
+    {
+        "fname": "Rahul",
+        "lname": "Sharma",
+        "username": "rahul123",
+        "email": "rahul@gmail.com",
+        "password": "MTIzNDU2Nzg5MA==",
+        "isUserLoggedIn": true,
+        "id": 1659252408129
+    },
+    {
+        "fname": "Tony",
+        "lname": "Stark",
+        "username": "ironman",
+        "email": "tonystark@gmail.com",
+        "password": "Tonystark123",
+        "id": 1659347105890
+    }
+]
